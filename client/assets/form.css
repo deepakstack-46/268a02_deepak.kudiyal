@@ -1,0 +1,53 @@
+.container {
+    background: white;
+    padding: 25px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #3344cc;
+  }
+  
+  label {
+    margin-top: 12px;
+    display: block;
+    font-weight: 600;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #d0d3ff;
+    border-radius: 8px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background: #4b57f5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 18px;
+    cursor: pointer;
+  }
+
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 10px;
+  }
+  
+  .radio-option {
+    display: flex;
+    align-items:center;
+    gap: 40px;
+    font-weight: 500;
+  }

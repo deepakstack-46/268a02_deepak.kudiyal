@@ -1,0 +1,32 @@
+.container {
+    background: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #3344cc;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: #4b57f5;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  pre {
+    margin-top: 15px;
+    background: #111;
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  

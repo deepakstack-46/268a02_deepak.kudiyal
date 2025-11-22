@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="assets/base.css">
+    <link rel="stylesheet" href="assets/form.css">
+    
+<body>
+    <div class="container">
+        <h2>Create an Account</h2>
+
+        <form id="register-form">
+            <label>Email:</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+
+            <label>Phone Number:</label>
+            <input type="text" id="phone" placeholder="+1234567890" required />
+
+            <label>Password:</label>
+            <input type="password" id="password" required />
+
+            <label>Role:</label>
+            <select id="role" >
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="admin">Admin</option>
+            </select>
+
+            <label>OTP Method:</label>
+            <div class="otp-options">
+                <label><input type="radio" name="otpMethod" value="email" checked> Email</label>
+
+                <label><input type="radio" name="otpMethod" value="sms"> SMS</label>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+
+        <p id="message"></p><br>
+        <br>
+        <a href="login.html">Already have an account?</a>
+    </div>
+
+    <script defer src="app.js"></script>
+</body>
+</html>
